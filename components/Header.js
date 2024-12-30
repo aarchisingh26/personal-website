@@ -65,7 +65,7 @@ export default function Header() {
       <div className="lg:ml-20 ml-7 py-7 flex justify-between items-center lg:text-md">
 
         <div className="text-2xl font-bold text-left">
-          <a href="#" onClick={scrollToTop} className="lg:pr-10 pr-8 text-right hover:underline nav-link">
+          <a href="#" onClick={scrollToTop} className="lg:pr-10 pr-8 text-right">
           aarchisingh.
           </a>
         </div>
