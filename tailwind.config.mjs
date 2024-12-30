@@ -10,6 +10,10 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'custom-pink': '#FF1493',
+      },
+      fontFamily: {
+        sans: ["'DM Sans'", "sans-serif"],
       },
     },
   },

@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -14,8 +19,67 @@
   }
 }
 
+.dm-sans {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.jakarta {
+  font-family: 'Plus Jakarta Display', sans-serif;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.icons-wrapper {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+
+.icon-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.icon-name {
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+}
+
+.icons-wrapper-1 {
+  display: flex;
+  gap: 0.8rem;
+  align-items: center;
+}
+
+.icon-container-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.icon-size-1 {
+  width: 30px;
+  height: 30px;
+}
+
+.icon-size-2 {
+  width: 40px;
+  height: 40px;
+}
+
