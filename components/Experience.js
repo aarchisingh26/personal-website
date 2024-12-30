@@ -11,7 +11,7 @@ export default function Experience() {
 
 
       <p className="text-5xl font-extrabold">
-          <span className="before:block before:absolute ml-2 mb-6 italic before:-inset-1 before:-skew-y-3 before:bg-emerald-400 relative inline-block">
+          <span className="before:block before:absolute ml-2 mb-6 italic before:-inset-1 before:-skew-y-3 before:bg-green-400 relative inline-block">
             <span className="relative text-black">EXPERIENCE.</span>
           </span>
       </p>
