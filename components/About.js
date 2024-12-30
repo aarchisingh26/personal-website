@@ -23,17 +23,17 @@ export default function About() {
           </span>
         </p>
 
-        <p className="mt-4 text-lg">
+        <p className="mt-6 text-lg">
           I aspire to build software products that add value to our daily lives.
           I found my passion for coding in a grade 8 Computers & Technology class where I was exposed to HTML programming.
           Now, I am interested in full-stack development or even something related to FinTech!
-          <br /><br />When I am not coding, I enjoy reading books and doing anything artsy.
+          <br /><br />When I am not coding, I enjoy reading books or doing anything artsy!
         </p>
 
         <br />
 
         <p className="text-lg pb-7 pt-7 font-medium">
-          Languages + Frameworks I'm well-versed in:
+          Languages + Frameworks I Know the Best:
         </p>
 
         <div className="icons-wrapper">
