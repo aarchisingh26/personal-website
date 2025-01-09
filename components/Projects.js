@@ -451,12 +451,12 @@ export default function Projects() {
               {/* Footer: Links and Icons */}
               <div className="mt-auto">
                 <a
-                  href="https://example.com"
+                  href="https://git.uwaterloo.ca/a254sing/auraglass-sourcecode"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:underline-offset-2 italic font-medium"
                 >
-                  View GitHub.
+                  View GitLab.
                 </a>
                 <br />
                 <div className="icons-wrapper-1 mt-4">
