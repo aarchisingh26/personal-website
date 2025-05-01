@@ -71,9 +71,10 @@ export default function Experience() {
               {/* Title below the year on mobile */}
               <span className="font-semibold text-xl md:text-xl mb-2">Software Developer @ University of Waterloo EngSoc</span>
               <ul className="list-disc pl-6 text-md text-gray-700">
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
+                <li>Implemented major website enhancements and plug-ins in WordPress.</li>
+                <li>Developed an automation system in JavaScript to streamline repetitive tasks, boosting EngSoc's productivity.</li>
+                <li>Developed a website traffic tracker using Google Website Analytics to monitor and analyze user engagement,
+resulting in better insights for optimizing content.</li>
               </ul>
             </div>
             
