@@ -289,12 +289,18 @@ export default function Header() {
           <a href="#about" className="lg:pr-10 pr-8 text-right cursor-pointer hover:underline hover:underline-offset-8 nav-link">
             About
           </a>
-          <a href="#projects" className="lg:pr-10 pr-8 text-right cursor-pointer hover:underline hover:underline-offset-8 nav-link">
-            Projects
-          </a>
+          
           <a href="#experience" className="lg:pr-10 pr-8 text-right cursor-pointer hover:underline hover:underline-offset-8 nav-link">
             Experience
           </a>
+
+
+          <a href="#projects" className="lg:pr-10 pr-8 text-right cursor-pointer hover:underline hover:underline-offset-8 nav-link">
+            Projects
+          </a>
+
+
+
           <a href="#contact" className="lg:pr-10 pr-8 text-right cursor-pointer hover:underline hover:underline-offset-8 nav-link">
             Contact
           </a>

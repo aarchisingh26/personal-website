@@ -107,6 +107,7 @@ import { TbBrandCpp } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaSwift } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
 
 export default function About() {
   return (
@@ -124,8 +125,8 @@ export default function About() {
           <p className="mt-6 text-base sm:text-lg">
             I aspire to build software products that add value to our daily lives.
             I found my passion for coding in a grade 8 Computers & Technology class where I was exposed to HTML programming.
-            Now, I am interested in full-stack development and all things tech!
-            <br /><br />When I am not coding, I enjoy reading books or doing anything artsy!
+            Now, I am interested in AI/ML, cloud infrastructure, and all things tech!
+            <br /><br />When I am not coding, I enjoy reading books!
           </p>
 
           <p className="text-lg pb-7 pt-7 font-medium">
@@ -174,6 +175,12 @@ export default function About() {
               <BiLogoPostgresql className="icon-size" />
               <code className="icon-name">PostgreSQL</code>
             </div>
+
+            <div className="icon-container flex flex-col items-center">
+              <SiMysql className="icon-size" />
+              <code className="icon-name">MySQL</code>
+            </div>
+
 
             <div className="icon-container flex flex-col items-center">
               <FaSwift className="icon-size" />

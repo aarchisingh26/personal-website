@@ -91,7 +91,7 @@ export default function Home() {
             <br />
 
             <div className="text-lg sm:text-xl leading-relaxed poppins">
-              <p>Hi! I'm Aarchi, a first-year Software Engineering student @ University of Waterloo.</p>
+              <p>Hi there! I'm Aarchi, a second-year Computer Science (Co-op) student @ University of Waterloo.</p>
             </div>
 
             {/* <div className="mt-5">
@@ -109,8 +109,9 @@ export default function Home() {
         </div>
 
         <About />
-        <Projects />
+        
         <Experience />
+        <Projects />
         <Contact />
         <Footer />
       </div>

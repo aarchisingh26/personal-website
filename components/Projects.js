@@ -256,11 +256,11 @@
 "use client";
 
 import { FaArrowUpRightFromSquare } from "react-icons/fa6";
-import { FaNode, FaPython, FaRaspberryPi, FaReact } from "react-icons/fa";
+import { FaDocker, FaNode, FaPython, FaRaspberryPi, FaReact } from "react-icons/fa";
 import { IoLogoJavascript } from "react-icons/io5";
 import { RiNextjsFill } from "react-icons/ri";
 import { TbBrandCpp } from "react-icons/tb";
-import { SiExpress, SiJupyter, SiVite } from "react-icons/si";
+import { SiExpress, SiJupyter, SiStreamlit, SiVite } from "react-icons/si";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaSwift } from "react-icons/fa";
 import { SiMongodb } from "react-icons/si";
@@ -279,7 +279,7 @@ export default function Projects() {
           </p>
 
           {/* Project Grid */}
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 pt-5">
             {/* Individual Project Box */}
             <div className="bg-white p-6 outline-gray-200 outline transition-shadow flex flex-col h-full">
               {/* Other content */}
@@ -289,7 +289,7 @@ export default function Projects() {
                     Perfume Recommendation <span>Model</span>
                   </h3>
                   <a
-                    href="https://example.com"
+                    href="https://perfume-recommendation.up.railway.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ml-2"
@@ -304,7 +304,48 @@ export default function Projects() {
               {/* Footer: Links and Icons */}
               <div className="mt-auto">
                 <a
-                  href="https://github.com/aarchisingh26/perfume-recommendation-model"
+                  href="https://github.com/aarchisingh26/Perfume-Recommendation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline hover:underline-offset-2 italic font-medium"
+                >
+                  View GitHub.
+                </a>
+                <br />
+                <div className="icons-wrapper-1 mt-4">
+                  <div className="icon-container-1">
+                    <FaPython className="icon-size-1" />
+                  </div>
+                  {/* <div className="icon-container-1">
+                    <SiJupyter className="icon-size-1" />
+                  </div> */}
+                </div>
+              </div>
+            </div>
+
+            {/* Second Project Box */}
+            <div className="bg-white p-6 outline-gray-200 outline transition-shadow flex flex-col h-full">
+              <div className="flex-1 mb-8">
+                <div className="flex items-center">
+                  <h3 className="text-2xl font-semibold">
+                    Skincare Label Scanner
+                  </h3>
+                  <a
+                    href="https://skincare-label-scanner.up.railway.app"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2"
+                  >
+                    <FaArrowUpRightFromSquare className="text-black text-xl" />
+                  </a>
+                </div>
+                <p className="mt-2 text-gray-700">
+                Users can scan skincare product labels to instantly find detailed ingredient insights. Our AI-powered tool uses advanced OCR and NLP to identify potentially harmful and beneficial ingredients, helping users make safer, more informed skincare choices.                </p>
+              </div>
+              {/* Footer: Links and Icons */}
+              <div className="mt-auto">
+                <a
+                  href="https://github.com/aarchisingh26/Skincare-Label-Scanner"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:underline-offset-2 italic font-medium"
@@ -317,59 +358,12 @@ export default function Projects() {
                     <FaPython className="icon-size-1" />
                   </div>
                   <div className="icon-container-1">
-                    <SiJupyter className="icon-size-1" />
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            {/* Second Project Box */}
-            <div className="bg-white p-6 outline-gray-200 outline transition-shadow flex flex-col h-full">
-              <div className="flex-1 mb-8">
-                <div className="flex items-center">
-                  <h3 className="text-2xl font-semibold">
-                    UW Sync - Exam Scheduler
-                  </h3>
-                  <a
-                    href="https://uw-sync.vercel.app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="ml-2"
-                  >
-                    <FaArrowUpRightFromSquare className="text-black text-xl" />
-                  </a>
-                </div>
-                <p className="mt-2 text-gray-700">
-                  I extracted exam date data from the University of Waterloo website and created UW Sync, allowing students to search for exams and add them to their calendars all at once.
-                </p>
-              </div>
-              {/* Footer: Links and Icons */}
-              <div className="mt-auto">
-                <a
-                  href="https://github.com/aarchisingh26/uw-sync"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:underline hover:underline-offset-2 italic font-medium"
-                >
-                  View GitHub.
-                </a>
-                <br />
-                <div className="icons-wrapper-1 mt-4">
-                  <div className="icon-container-1">
-                    <IoLogoJavascript className="icon-size-1" />
+                    <FaDocker className="icon-size-1" />
                   </div>
                   <div className="icon-container-1">
-                    <RiNextjsFill className="icon-size-1" />
+                    <SiStreamlit className="icon-size-1" />
                   </div>
-                  <div className="icon-container-1">
-                    <SiExpress className="icon-size-1" />
-                  </div>
-                  <div className="icon-container-1">
-                    <FaNode className="icon-size-1" />
-                  </div>
-                  <div className="icon-container-1">
-                    <BiLogoPostgresql className="icon-size-1" />
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -379,10 +373,10 @@ export default function Projects() {
               <div className="flex-1 mb-8">
                 <div className="flex items-center">
                   <h3 className="text-2xl font-semibold">
-                    Expenza - An Expense Tracker
+                    Student Grade Tracker
                   </h3>
                   <a
-                    href="https://expenza-6fu4.onrender.com"
+                    href="https://student-grade-tracker-frontend.onrender.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="ml-2"
@@ -391,13 +385,13 @@ export default function Projects() {
                   </a>
                 </div>
                 <p className="mt-2 text-gray-700">
-                  A MERN stack application (MongoDB, Express.js, React, and Node.js). Tracks your daily expenses and saves them into your account, displays the total you spent, etc.
+                  A MERN stack application (MongoDB, Express.js, React, and Node.js). Users can input their grades, marking scheme weights, and see their current average in real time.
                 </p>
               </div>
               {/* Footer: Links and Icons */}
               <div className="mt-auto">
                 <a
-                  href="https://github.com/aarchisingh26/expenza"
+                  href="https://github.com/aarchisingh26/student-grade-tracker"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:underline hover:underline-offset-2 italic font-medium"

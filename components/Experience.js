@@ -64,6 +64,25 @@ export default function Experience() {
             </span>
           </p>
 
+          {/* pinkbyte stuff */}
+          <div className="mt-8 flex flex-col md:flex-row justify-between border-b border-gray-300 pb-4 md:pb-2 space-y-4 md:space-y-0">
+            {/* For mobile: Year above the title */}
+            <span className="font-semibold text-xl md:text-xl md:hidden">{/* Mobile year */}2025</span>
+            <div className="flex flex-col">
+              {/* Title below the year on mobile */}
+              <span className="font-semibold text-xl md:text-xl mb-2">Software Developer Intern @ Pinkbyte Inc./Mazzzing Inc.</span>
+              <ul className="list-disc pl-6 text-md text-gray-700">
+                <li>Implemented major website enhancements and plug-ins in WordPress.</li>
+                <li>Developed an automation system in JavaScript to streamline repetitive tasks, boosting EngSoc's productivity.</li>
+                <li>Developed a website traffic tracker using Google Website Analytics to monitor and analyze user engagement,
+resulting in better insights for optimizing content.</li>
+              </ul>
+            </div>
+            
+            <span className="font-semibold text-xl md:text-xl hidden md:block">{/* Desktop year */}2025</span>
+          </div>
+          
+
           <div className="mt-8 flex flex-col md:flex-row justify-between border-b border-gray-300 pb-4 md:pb-2 space-y-4 md:space-y-0">
             {/* For mobile: Year above the title */}
             <span className="font-semibold text-xl md:text-xl md:hidden">{/* Mobile year */}2024</span>
