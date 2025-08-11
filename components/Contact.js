@@ -84,7 +84,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex mb-6 items-center"
               >
-                <MdOutlineAlternateEmail className="icon-size" />
+                <MdOutlineAlternateEmail className="icon-size-contact" />
                 <span className="ml-2 hover:underline hover:underline-offset-8">
                   a254sing@uwaterloo.ca
                 </span>
@@ -95,18 +95,19 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex mb-6 items-center"
               >
-                <FaLinkedin className="icon-size" />
+                <FaLinkedin className="icon-size-contact" />
                 <span className="ml-2 hover:underline hover:underline-offset-8">
                   aarchisingh
                 </span>
               </a>
               <a
-                href="/"
+                href="/Aarchi_Singh_SWEIntern_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
+                
                 className="flex mb-6 items-center"
               >
-                <GoPaperclip className="icon-size" />
+                <GoPaperclip className="icon-size-contact" />
                 <span className="ml-2 hover:underline hover:underline-offset-8">
                   Resume
                 </span>
@@ -117,7 +118,7 @@ export default function Contact() {
                 rel="noopener noreferrer"
                 className="flex items-center"
               >
-                <FaGithub className="icon-size" />
+                <FaGithub className="icon-size-contact" />
                 <span className="ml-2 hover:underline hover:underline-offset-8">
                   aarchisingh26
                 </span>

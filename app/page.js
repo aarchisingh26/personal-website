@@ -94,6 +94,21 @@ export default function Home() {
               <p>Hi there! I'm Aarchi, a second-year Computer Science (Co-op) student @ University of Waterloo.</p>
             </div>
 
+            <div className="text-sm text-gray-600 mt-10 poppins">
+              <a href="/Aarchi_Singh_SWEIntern_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Resume
+              </a>
+              <span className="mx-2">|</span>
+              <a href="https://github.com/aarchisingh26" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                GitHub
+              </a>
+              <span className="mx-2">|</span>
+              <a href="https://www.linkedin.com/in/aarchisingh/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                LinkedIn
+              </a>
+            </div>
+
+
             {/* <div className="mt-5">
               <p>Email</p>
             </div>

@@ -57,7 +57,7 @@ export default function Experience() {
       <div className="h-screen md:h-screen flex bg-white items-center justify-center relative">
         <hr className="absolute top-0 left-0 right-0 mx-4 border-t-2 border-gray-200" />
 
-        <div className="poppins w-full md:w-1/2 h-auto md:h-screen flex flex-col pt-28 md:pt-56 pb-20 md:pb-60 px-4">
+        <div className="poppins w-full md:w-1/2 h-auto md:h-screen flex flex-col pt-10 md:pt-36 pb-20 md:pb-60 px-4">
           <p className="text-4xl md:text-5xl font-extrabold">
             <span className="before:block before:absolute ml-2 mb-6 italic before:-inset-1 before:-skew-y-3 before:bg-green-400 relative inline-block">
               <span className="relative text-black">EXPERIENCE.</span>
@@ -72,10 +72,9 @@ export default function Experience() {
               {/* Title below the year on mobile */}
               <span className="font-semibold text-xl md:text-xl mb-2">Software Developer Intern @ Pinkbyte Inc./Mazzzing Inc.</span>
               <ul className="list-disc pl-6 text-md text-gray-700">
-                <li>Implemented major website enhancements and plug-ins in WordPress.</li>
-                <li>Developed an automation system in JavaScript to streamline repetitive tasks, boosting EngSoc's productivity.</li>
-                <li>Developed a website traffic tracker using Google Website Analytics to monitor and analyze user engagement,
-resulting in better insights for optimizing content.</li>
+                <li>Developed and deployed Terraform scripts to automate the creation and provisioning of cloud servers on Oracle Cloud Infrastructure (OCI), reducing manual setup time by 85%.</li>
+                <li>Successfully managed two projects: enhanced the backend of the company's website to support audit document review, and built a hardware-based MagSafe lock system using Raspberry Pi for automated access control.</li>
+                <li>Developed Python scripts for MySQL and Microsoft Access, enabling automated data retrieval and updates, reducing data processing time by 60% and eliminating over 10 hours of manual work per week.</li>
               </ul>
             </div>
             

@@ -115,7 +115,7 @@ export default function About() {
       <div className="h-screen flex bg-white items-center justify-center relative">
         <hr className="absolute top-0 left-0 right-0 mx-4 border-t-2 border-gray-200" />
 
-        <div className="poppins w-full sm:w-3/4 lg:w-1/2 h-auto flex flex-col pt-20 sm:pt-32 pb-32 sm:pb-60 px-4 sm:px-8">
+        <div className="poppins w-full sm:w-3/4 lg:w-1/2 h-auto flex flex-col pt-20 sm:pt-36 pb-32 sm:pb-60 px-4 sm:px-8">
           <p className="text-4xl sm:text-5xl font-extrabold">
             <span className="before:block before:absolute ml-2 mr-2 italic before:-inset-1 before:-skew-y-3 before:bg-custom-pink relative inline-block">
               <span className="relative text-black">ABOUT.</span>
