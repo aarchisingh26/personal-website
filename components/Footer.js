@@ -56,7 +56,7 @@ export default function Footer() {
             aarchisingh.
           </a>
           <p className="text-sm font-medium text-gray-600 mt-1">
-            &#169; 2024 Aarchi Singh. All rights reserved.<br />
+            &#169; 2026 Aarchi Singh. All rights reserved.<br />
             Made with &#x2665; by Aarchi Singh.
           </p>
         </div>

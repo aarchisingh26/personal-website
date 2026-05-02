@@ -95,10 +95,10 @@ export default function Home() {
             </div>
 
             <div className="text-sm text-gray-600 mt-10 poppins">
-              <a href="/Aarchi_Singh_SWEIntern_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline">
+              {/* <a href="/Aarchi_Singh_SWEIntern_Resume.pdf" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 Resume
-              </a>
-              <span className="mx-2">|</span>
+              </a> */}
+              <div className="mx-2"></div>
               <a href="https://github.com/aarchisingh26" target="_blank" rel="noopener noreferrer" className="hover:underline">
                 GitHub
               </a>

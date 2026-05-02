@@ -100,7 +100,7 @@ export default function Contact() {
                   aarchisingh
                 </span>
               </a>
-              <a
+              {/* <a
                 href="/Aarchi_Singh_SWEIntern_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -111,7 +111,7 @@ export default function Contact() {
                 <span className="ml-2 hover:underline hover:underline-offset-8">
                   Resume
                 </span>
-              </a>
+              </a> */}
               <a
                 href="https://github.com/aarchisingh26"
                 target="_blank"
@@ -126,13 +126,14 @@ export default function Contact() {
             </div>
 
             {/* Image */}
-            <div className="w-64 h-64 md:w-72 md:h-80 relative border-slate-950 border-4">
+            {/* <div className="w-64 h-64 md:w-72 md:h-80 relative border-slate-950 border-4">
               <img
                 src="/mypic.jpg"
                 alt="Aarchi Singh"
                 className="h-full w-full object-cover"
               />
-            </div>
+            </div> */}
+
           </div>
         </div>
       </div>
